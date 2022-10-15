@@ -1,9 +1,9 @@
 import random
 # variaveis
-Response = "y"
-dice = random.randint(1,6)
+response = "y"
 
-while Response == "y" :
+while response == "y" :
+    dice = random.randint(1,6)
     if dice == 1:
         print("🎫🎫🎫🎫🎫🎫")
         print("🎫          🎫")
@@ -34,12 +34,14 @@ while Response == "y" :
         print("🎫     0    🎫")
         print("🎫  0     0 🎫")
         print("🎫🎫🎫🎫🎫🎫")
-    elif dice == 2:
+    elif dice == 6:
         print("🎫🎫🎫🎫🎫🎫")
         print("🎫  0     0 🎫")
         print("🎫  0     0 🎫")
         print("🎫  0     0 🎫")
-        print("🎫🎫🎫🎫🎫🎫")    
+        print("🎫🎫🎫🎫🎫🎫")
+            
+    response = input("deseja continuar jogando?[y/n]")
         
         
             
